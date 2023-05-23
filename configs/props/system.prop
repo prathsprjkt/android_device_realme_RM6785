@@ -1,5 +1,8 @@
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
+# RIL
+persist.sys.radio.force_lte_ca=false
+
 # IMS
 persist.dbg.volte_avail_ovr=1
