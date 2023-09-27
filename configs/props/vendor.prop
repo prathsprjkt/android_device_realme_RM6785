@@ -90,6 +90,8 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.set_touch_timer_ms=300
 ro.vendor.mtk_hdr_video_support=1
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.skia_atrace_enabled=false
 
 # Incremental
 ro.incremental.enable=yes
