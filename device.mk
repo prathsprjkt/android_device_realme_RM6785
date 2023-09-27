@@ -168,6 +168,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek-mali
 
+# MtkInCallService
+PRODUCT_PACKAGES += \
+    MtkInCallService
+
 # Neutral Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor:64
