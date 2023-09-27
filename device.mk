@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DEVICE_PATH := device/realme/RM6785
+CONFIGS_PATH := $(DEVICE_PATH)/configs
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -262,7 +265,7 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm
 
 # Properties
-include $(LOCAL_PATH)/vendor_prop.mk
+include $(CONFIGS_PATH)/props/vendor_prop.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Radio
