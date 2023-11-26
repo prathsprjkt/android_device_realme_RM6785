@@ -8,11 +8,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from device makefile
+# Inherit from the device makefile.
 $(call inherit-product, device/realme/RM6785/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Inherit from the GMS makefile.
+ifeq ($(WITH_GMS),true)
+$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+endif
 
 # crDroid bringup.
 TARGET_ENABLE_BLUR := true
