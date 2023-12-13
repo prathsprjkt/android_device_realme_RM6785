@@ -86,3 +86,10 @@ prebuilt_etc {
     filename: "ueventd.rc",
     device_specific: true,
 }
+
+prebuilt_etc {
+    name: "logcat.rc",
+    src: "etc/logcat.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
