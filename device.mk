@@ -61,8 +61,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_audio \
     libshim_camera_metadata \
-    libshim_mtkcam \
-    libshim_utils
+    libshim_mtkcam
 
 # Charger
 PRODUCT_PACKAGES += \
