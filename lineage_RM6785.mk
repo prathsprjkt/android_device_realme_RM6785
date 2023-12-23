@@ -16,6 +16,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # crDroid bringup.
 TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_64_BIT_APPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_RM6785
