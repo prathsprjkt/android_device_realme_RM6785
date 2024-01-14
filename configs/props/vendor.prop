@@ -95,6 +95,7 @@ ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.set_touch_timer_ms=300
 ro.vendor.mtk_hdr_video_support=1
 ro.vendor.perf.scroll_opt=true
+ro.config.avoid_gfx_accel=true
 
 # Incremental
 ro.incremental.enable=yes
